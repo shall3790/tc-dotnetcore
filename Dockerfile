@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore:latest
+FROM microsoft/dotnet:2.1-runtime
 # ARG BUILD_ENV
 
 COPY out .
